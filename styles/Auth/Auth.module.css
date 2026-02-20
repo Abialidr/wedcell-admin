@@ -1,0 +1,17 @@
+.auth_container{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('https://www.wedcell.com/assets/front/images/couple-bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    background-position: center;
+}
+
+.form_container{
+    background-color: #fff;
+    padding-bottom: 2rem;
+    width: 100%;
+    max-width: 450px;
+}

@@ -1,0 +1,84 @@
+.hello {
+  font-size: 30px;
+}
+.mainReviewBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 13%;
+  padding-right: 15%;
+  margin-top: 5%;
+  padding-top: 30px;
+  border-top: 1px solid grey;
+  gap: 20px;
+}
+.ReviewContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ReviewUser {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+}
+.ReviewUser h6 {
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 19px;
+}
+.ReviewCountryDate {
+  font-size: 14px;
+  color: rgba(72, 72, 72, 0.834);
+}
+.ReviewSpan span {
+  width: 70%;
+  font-size: 15px;
+  line-break: anywhere;
+}
+.ReviewSpan  {
+  width: 70%;
+  font-size: 15px;
+  line-break: anywhere;
+}
+.ReviewStar {
+  margin-top: -10px;
+  margin-bottom: -7px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.ReviewStar span {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.Viewbtn {
+  font-size: 14px;
+}
+.Viewbtn:hover {
+  color: #b6255a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.ReplyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+.ReplyContainer .ReviewUser h6 {
+  font-size: 17px;
+}
+.ReplyContainer .ReviewCountryDate {
+  margin-top: -5px;
+}
