@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: false,
   images: {
     loader: "akamai",
-    path: "",
+    path: "/",
     domains: [
       "www.wedcell.com",
       "wedcell.com",
@@ -34,11 +34,7 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     // contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
-  },
+  experimental: {},
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
